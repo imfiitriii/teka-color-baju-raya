@@ -62,7 +62,7 @@ return (
             {result && (
                 <p className="text-white">{result.win ? <a 
                     className="rounded-md bg-yellow-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-yellow-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-                    href={result.link}>nah tekan ni, selamat hari raya</a> : "Not the color!"}</p>
+                    href={result.link}>nah tekan ni, shr!</a> : "Not the color!"}</p>
             )}
             </div>
             </div>
