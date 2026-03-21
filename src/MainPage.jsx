@@ -51,7 +51,7 @@ return (
                 Teka Color Baju Raya Aku
             </h1>
             <p className="mt-8 text-lg pb-5 font-medium text-pretty text-gray-400 sm:text-x1/8">
-            Teka color baju raya aku, kalau 70% accurate dapat duit raya :D (nanti akan ada button)
+            Teka color baju raya aku, kalau 92.5% accurate dapat duit raya RM2 :D (nanti akan ada button)
             </p>
             <ColorPicker color={color} setColor={setColor}/>
             <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -62,7 +62,7 @@ return (
             {result && (
                 <p className="text-white">{result.win ? <a 
                     className="rounded-md bg-yellow-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-yellow-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-                    href={result.link}>Tahniah, selamat hari raya!</a> : "Not the color!"}</p>
+                    href={result.link}>nah tekan ni, selamat hari raya</a> : "Not the color!"}</p>
             )}
             </div>
             </div>
