@@ -10,7 +10,7 @@ export default function handler(req, res) {
         (guess.b - SECRET_COLOR.b) ** 2
     )
 
-    if (distance < 33) { //92.5% accuracy
+    if (distance < 66) { //92.5% accuracy
         res.status(200).json({ win: true, link: "https://links.tngdigital.com.my/moneypacket/aYvfRGhICaRacStrGMlG" })
     } else {
         res.status(200).json({ win: false })
