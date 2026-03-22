@@ -51,7 +51,7 @@ return (
                 Teka Color Baju Raya Aku
             </h1>
             <p className="mt-8 text-lg pb-5 font-medium text-pretty text-gray-400 sm:text-x1/8">
-            Teka color baju raya aku, kalau 92.5% accurate dapat duit raya RM2 :D (nanti akan ada button)
+            Teka color baju raya aku, kalau 85% accurate dapat duit raya RM2 :D (nanti akan ada button)
             </p>
             <ColorPicker color={color} setColor={setColor}/>
             <div className="mt-10 flex items-center justify-center gap-x-6">
