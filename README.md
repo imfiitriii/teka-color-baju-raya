@@ -1,4 +1,4 @@
-# Teka Baju Raya Imran
+# Teka Color Baju Raya
 
 This website is a mini game that allows users to guess the color of to get rewards.
 
